@@ -1,5 +1,5 @@
 #!/bin/zsh
-
+#test
 for f in **/*_test.v ; do
         echo "Testing $f..."
         v $f || echo "fail"
